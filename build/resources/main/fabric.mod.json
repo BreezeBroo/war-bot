@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "warbot",
+  "version": "1.0.0",
+  "name": "Warbot Practice",
+  "description": "Spawn player-like PvP practice bots with the default Minecraft skin.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.warbot.WarBotMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

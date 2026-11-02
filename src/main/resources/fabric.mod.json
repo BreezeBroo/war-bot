@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "warbot",
+  "version": "${version}",
+  "name": "Warbot Practice",
+  "description": "Spawn player-like PvP practice bots with a distinctive black skin.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.warbot.WarBotMod"
+    ],
+    "client": [
+      "dev.warbot.WarBotClient"
+    ]
+  },
+  "mixins": [
+    "warbot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
